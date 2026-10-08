@@ -46,6 +46,32 @@ The OLS model outperformed all tree-based models, indicating the relationship be
 
 The tuned Random Forest classifier achieved the best accuracy at 73.5%, though all models struggled with the imbalanced class distribution (roughly 2:1 ratio of "not best" to "best" season).
 
+## Screenshots
+
+### Regression models
+
+![Regression models](docs/screenshots/model-comparison.png)
+
+Held-out R² for OLS, Random Forest, and Gradient Boosting.
+
+### Predicted vs actual
+
+![Predicted vs actual](docs/screenshots/predicted-vs-actual.png)
+
+5th-season points predictions against the test set.
+
+### Peak-season classification
+
+![Peak-season classification](docs/screenshots/classification-accuracy.png)
+
+Held-out accuracy for LDA, QDA, and random forest on peak-season labels.
+
+### Confusion matrix
+
+![Confusion matrix](docs/screenshots/classification-confusion.png)
+
+Random forest confusion matrix on the held-out test set (about 65% accuracy).
+
 ## Methods
 
 ### Data Cleaning
